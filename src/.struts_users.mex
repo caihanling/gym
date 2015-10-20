@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="users" location="10,10" size="280,140">
+    <action name="users" location="65,57" size="150,41">
+      <result name="register">
+        <resourceEdge source="register" routing="0" target="index.jsp" />
+      </result>
+      <result name="userlogin">
+        <resourceEdge source="userlogin" routing="0" target="index.jsp" />
+      </result>
+      <result name="faillogin">
+        <resourceEdge source="faillogin" routing="0" target="faillogin.jsp" />
+      </result>
+      <result name="exit">
+        <resourceEdge source="exit" routing="0" target="index.jsp" />
+      </result>
+      <result name="managerlogin">
+        <resourceEdge source="managerlogin" routing="0" target="manager.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="index.jsp" path="index.jsp" location="100,205" size="150,55" />
+  <webResource name="faillogin.jsp" path="faillogin.jsp" location="0,0" size="0,0" />
+  <webResource name="manager.jsp" path="manager.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

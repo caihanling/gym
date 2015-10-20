@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<package name="users" extends="struts-default">
+		<action name="users" class="usersAction">
+			<result name="register">index.jsp</result>
+			<result name="userlogin">index.jsp</result>
+			<result name="faillogin">faillogin.jsp</result>
+			<result name="exit">index.jsp</result>
+			<result name="managerlogin">manager.jsp</result>
+			<result name="findAllUser">usermanager.jsp</result>
+			<result name="update">manager.jsp</result>
+		</action>
+	</package>
+	
+
+</struts>   

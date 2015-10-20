@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="pro" location="10,10" size="280,140">
+    <action name="pro" location="65,57" size="150,41">
+      <result name="showPro">
+        <resourceEdge source="showPro" routing="0" target="showPro.jsp" />
+      </result>
+      <result name="findByGym">
+        <resourceEdge source="findByGym" routing="0" target="findByGym.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="badminton.jsp" path="badminton.jsp" location="96,205" size="150,55" />
+  <webResource name="showPro.jsp" path="showPro.jsp" location="0,0" size="0,0" />
+  <webResource name="findByGym.jsp" path="findByGym.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

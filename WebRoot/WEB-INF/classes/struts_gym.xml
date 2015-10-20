@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<package name="gym" extends="struts-default">
+		<action name="gym" class="gymAction">
+			<result name="addGym">success.jsp</result>
+			<result name="findAllGym">findAllGym.jsp</result>
+			<result name="gotoupdate">updategym.jsp</result>
+			<result name="findById">updategym1.jsp</result>
+			<result name="updateGym">manager.jsp</result>
+		</action>
+	</package>
+	
+
+</struts>   

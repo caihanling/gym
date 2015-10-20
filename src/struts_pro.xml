@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<package name="pro" extends="struts-default">
+		<action name="pro" class="proAction">
+			<result name="showPro">showPro.jsp</result>
+			<result name="findByGym">findByGym.jsp</result>
+			<result name="findById">subscribe.jsp</result>
+		</action>
+	</package>
+	
+
+</struts>   

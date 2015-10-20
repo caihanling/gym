@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="gym" location="10,9" size="180,71">
+    <action name="gym" location="0,0" size="0,0">
+      <result name="addGym">
+        <resourceEdge source="addGym" routing="0" target="success.jsp" />
+      </result>
+      <result name="findAllGym">
+        <resourceEdge source="findAllGym" routing="0" target="findAllGym.jsp" />
+      </result>
+      <result name="gotoupdate">
+        <resourceEdge source="gotoupdate" routing="0" target="updategym.jsp" />
+      </result>
+      <result name="findById">
+        <resourceEdge source="findById" routing="0" target="updategym1.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="success.jsp" path="success.jsp" location="0,0" size="0,0" />
+  <webResource name="findAllGym.jsp" path="findAllGym.jsp" location="0,0" size="0,0" />
+  <webResource name="updategym.jsp" path="updategym.jsp" location="0,0" size="0,0" />
+  <webResource name="updategym1.jsp" path="updategym1.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

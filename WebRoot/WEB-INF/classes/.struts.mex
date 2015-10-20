@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <webResource name="index.jsp" path="index.jsp" location="0,0" size="0,0" />
+  <include file="struts_users.xml" location="0,0" size="0,0" />
+  <include file="struts_gym.xml" location="0,0" size="0,0" />
+  <include file="struts_pro.xml" location="0,0" size="0,0" />
+</Struts2Diagram>
+
